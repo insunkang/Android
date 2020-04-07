@@ -1,7 +1,6 @@
 package exam.day04.view.selectview;
 
 import android.os.Bundle;
-import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -12,8 +11,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import org.w3c.dom.Text;
 
 public class CheckActivity extends AppCompatActivity {
     // 뷰의 주소값을 담을 참조변수
