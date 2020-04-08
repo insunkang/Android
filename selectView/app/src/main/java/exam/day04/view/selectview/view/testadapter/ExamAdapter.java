@@ -1,6 +1,7 @@
 package exam.day04.view.selectview.view.testadapter;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -26,7 +27,7 @@ public class ExamAdapter extends ArrayAdapter {
     private Context context;
     private int resId;
     private ArrayList<ActorItem> datalist;
-    HashMap<Integer,SaveUserStateC> saveData= new HashMap<Integer, SaveUserStateC>();
+    private HashMap<Integer,SaveUserStateC> saveData= new HashMap<Integer, SaveUserStateC>();
     public ExamAdapter(Context context , int resId,  ArrayList<ActorItem> datalist) {
         super(context, resId, datalist );
         this.context = context;
@@ -55,6 +56,7 @@ public class ExamAdapter extends ArrayAdapter {
             convertView = inflater.inflate(resId,null);
             viewHolder = new ViewHolder(convertView);
             convertView.setTag(viewHolder);
+
         }else{
             viewHolder = (ViewHolder) convertView.getTag();
         }

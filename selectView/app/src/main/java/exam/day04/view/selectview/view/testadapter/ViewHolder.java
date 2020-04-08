@@ -16,10 +16,10 @@ public class ViewHolder {
     CheckBox actorCheck;
 
     public ViewHolder(View parentView){
-        this.actorImg= parentView.findViewById(R.id.actorImg);
-        this.actorName= parentView.findViewById(R.id.actorName);
-        this.actorDate= parentView.findViewById(R.id.actorDate);
-        this.actorTxt= parentView.findViewById(R.id.actorTxt);
-        this.actorCheck= parentView.findViewById(R.id.actorCheck);
+        this.actorImg= parentView.findViewById(R.id.img);
+        this.actorName= parentView.findViewById(R.id.name);
+        this.actorDate= parentView.findViewById(R.id.date);
+        this.actorTxt= parentView.findViewById(R.id.resultinfo);
+        this.actorCheck= parentView.findViewById(R.id.exam_chk);
     }
 }
