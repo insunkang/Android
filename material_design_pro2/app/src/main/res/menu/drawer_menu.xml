@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Item1"
+        android:title="전리품상자"
+        android:icon="@android:drawable/ic_dialog_info"/>
+    <item
+        android:id="@+id/Item2"
+        android:title="스킨"
+        android:icon="@android:drawable/ic_menu_compass"/>
+    <item
+        android:id="@+id/Item3"
+        android:title="나만의 상점"
+        android:icon="@android:drawable/ic_menu_mapmode"/>
+    <item
+        android:id="@+id/Item4"
+        android:title="대전기록"
+        android:icon="@android:drawable/ic_media_pause"/>
+</menu>

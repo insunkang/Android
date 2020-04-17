@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".actionbar.SubActivity" />
-        <activity android:name=".exam.ExamFragmentMain">
+        <activity android:name=".appbar.AppbarTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
