@@ -12,9 +12,10 @@
         android:layout_height="300dp"
         android:background="@color/colorAccent"
         android:layout_margin="30dp"
+        android:textSize="200sp"
         />
     <Button
-        android:onClick="useA3Handler"
+        android:onClick="btn_click"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="숫자 출력하기"/>
